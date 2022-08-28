@@ -1,9 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    background: #284b63;
-    background-image: url('../images/background.png');
-    background-size: cover; 
+    background: #284b63; 
 }
 
 h3 {
