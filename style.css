@@ -41,9 +41,7 @@ hr {
 .container {
     margin: 0 auto;
     margin-top: 10px;
-    /* margin-bottom: -10px; */
     width: 304px;
-    /* padding: 30px; */
     border: 4px solid white;
     border-radius: 10px 10px 10px 10px;
     background: white; 
@@ -64,9 +62,6 @@ hr {
 .info-img {
     width: 296px;
     height: 296px;
-    /* border-radius: 10px 10px 0px 0px; */
-    /* border: 1px solid white; */
-    /* background: white; */
     margin: 0 auto;
     border-radius: 4px 4px 0px 0px;
 }
@@ -140,14 +135,11 @@ hr {
 }
 
 .footer-img {
-    /* width: 25px; */
     border-radius: 4px 4px 4px 4px;
-    /* margin: 10px; */
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
 }
 
 .footer-img, .icons {
-    /* background: #D5D4D8; */
     height: 25px;
     margin-bottom: 15px;
 }
