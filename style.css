@@ -2,9 +2,8 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     background: #284b63;
-    /* background-image: url('../images/background.png');
+    /* background-image: url('../images/honeycomb.jpg');
     background-size: cover; */
-     
 }
 
 h3 {
@@ -19,6 +18,12 @@ p {
     background: #F5F5F5;
 }
 
+hr {
+    width: 100%;
+    border-top: 1px dashed #284b63;
+    margin-bottom: 0;
+}
+
 .email, .linked-in {
   width: 115px;
   margin: 10px;
@@ -28,13 +33,7 @@ p {
   border-radius: 6px;
 }
 
-.email {
-    background: white;
-    color: #23252C;
-}
-
-.linked-in {
-    background: #297FE5;
+.email, .linked-in {
     color: white;
     font-size: 16px;
 }
@@ -88,15 +87,17 @@ p {
 
 .title {
     color: #F47D27;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .website, a {
-    color: #4A4E74;
-    font-size: 10px;
+    color: #284b63;
+    font-size: 12px;
     padding-bottom: 5px;
     line-height: 30px;
     background: #F5F5F5;
+    font-weight: bold;
 }
 
 .website a:hover {
@@ -113,8 +114,8 @@ p {
 }
 
 .btn .linked-in:hover {
-    color: #297FE5;
-    background: white;
+    color: white;
+    background: black;
 }
 
 .about, .interests {
@@ -146,7 +147,7 @@ p {
 }
 
 .footer-img, .icons {
-    background: #D5D4D8;
+    /* background: #D5D4D8; */
     height: 25px;
     margin-bottom: 15px;
 }
