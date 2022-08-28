@@ -147,6 +147,8 @@ p {
 
 .footer-img, .icons {
     background: #D5D4D8;
+    height: 25px;
+    margin-bottom: 15px;
 }
 
 .footer-img:hover {
