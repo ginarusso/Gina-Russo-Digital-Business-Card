@@ -5,7 +5,7 @@ export default function Info() {
         window.location.href = "mailto:gpr0496@gmail.com"
     }
     return (
-        <>
+        <div>
             <div className="info-img">
             <img src="../images/gina-russo.jpg" className="info-img" />
             </div>
@@ -20,6 +20,6 @@ export default function Info() {
         </a>
             </div>
             </div>
-        </>
+        </div>
     )
 }
