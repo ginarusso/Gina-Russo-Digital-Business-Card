@@ -6,7 +6,7 @@ export default function Info() {
     }
     return (
         <div>
-            <div className="info-img">
+            <div className="photo">
             <img src="../images/gina-russo.jpg" className="info-img" />
             </div>
             <div className="info">
